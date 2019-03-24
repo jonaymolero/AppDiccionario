@@ -13,6 +13,7 @@ import android.view.View
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
+import net.azarquiel.diccionario.adapter.CustomAdapter
 import net.azarquiel.diccionario.model.Palabra
 import net.azarquiel.diccionario.utilidades.Util
 import java.util.*

@@ -1,4 +1,4 @@
-package net.azarquiel.diccionario
+package net.azarquiel.diccionario.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -9,9 +9,6 @@ import kotlinx.android.synthetic.main.rowpalabras.view.*
 import net.azarquiel.diccionario.model.Palabra
 
 
-/**
- * Created by pacopulido on 9/10/18.
- */
 class CustomAdapter(val context: Context,
                     val layout: Int,
                     val dataList: List<Palabra>,
